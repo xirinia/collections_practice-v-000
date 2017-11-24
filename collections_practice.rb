@@ -31,3 +31,11 @@ def reverse_array(array)
   end
   newArray
 end
+
+def swap_elements(array)
+    second = array[1]
+    third = array[2]
+    array[1] = third
+    array[2] = second
+    array
+end
