@@ -46,3 +46,13 @@ def kesha_maker(array)
   end
   array
 end
+
+def find_all(array)
+  a_array = []
+  array.each do |first|
+    if first[0] == "a"
+      a_array << first
+    end
+  end
+  a_array
+end
