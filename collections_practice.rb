@@ -47,7 +47,7 @@ def kesha_maker(array)
   array
 end
 
-def find_all(array)
+def find_a(array)
   a_array = []
   array.each do |first|
     if first[0] == "a"
