@@ -64,3 +64,15 @@ def sum_array(array)
   end
   total
 end
+
+def add_s(array)
+  new_array = []
+  array.each do |word|
+    if word == array[1]
+      new_array << word
+    else
+      new_array << word+"s"
+    end
+  end
+  new_array
+end
