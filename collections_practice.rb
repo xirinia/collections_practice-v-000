@@ -39,3 +39,10 @@ def swap_elements(array)
     array[2] = second
     array
 end
+
+def kesha_maker(array)
+  array.each do |i|
+    i[2] = "$"
+  end
+  array
+end
